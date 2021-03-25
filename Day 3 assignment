@@ -1,0 +1,9 @@
+alt=int(input('Enter the altitude:')
+if(alt==3000)
+print ('The plane is safe for landing')
+elif((alt>3000)and(alt<=6000))
+print ('Atleast allow the pilot to try for landing')
+elif (alt>6000)
+print ('Do not allow the pilot to land the plane and ask go around')
+else 
+print ('invalid altitude')
